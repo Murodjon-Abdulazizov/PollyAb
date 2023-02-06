@@ -11,14 +11,95 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-  <header class="header site__header">
-    <div class="container">
+  <!-- Site-header  -->
+  <header class="header">
+    <div class="container header_container">
       <a href="index.html" class="site__header__link">
         <img class=".site__header__img" src="./img/logo.svg" alt="Logo img">
       </a>
+
+      <nav class="header__sitenav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="index.html" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="index.html" class="header__link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="index.html" class="header__link">Pages</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header_donate">
+        <button class="button__orange header_button--before button">Donate now</button>
+      </div>
     </div>
   </header>
+
+  <main class="main-content">
+    <section class="section">
+      <div class="hero">
+        <div class="container hero_container">
+          <div class="hero__inner__text">
+            <h2 class="hero__title">Giving help to those who need it</h2>
+            <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
+            <button class="button button__orange button__hero">Donate now</button>
+            <button class="button button--margin--left button__hero">About our charity</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="statistics">
+      <div class="container statistics__container">
+        <div class="statistics__info__wrapper">
+          <h3 class="statistics__number">200<span class="statistics__number--text">m</span></h3>
+          <p class="statistics__text">Humans impacted</p>
+        </div>
+
+        <div class="statistics__info__wrapper">
+          <h3 class="statistics__number">50<span class="statistics__number--text">k</span></h3>
+          <p class="statistics__text">Collaborators </p>
+        </div>
+
+        <div class="statistics__info__wrapper">
+          <h3 class="statistics__number">370<span class="statistics__number--text">k</span></h3>
+          <p class="statistics__text">Donations</p>
+        </div>
+
+        <div class="statistics__info__wrapper">
+          <h3 class="statistics__number">100<span class="statistics__number--text">+</span></h3>
+          <p class="statistics__text">Donations</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__us">
+      <div class="container about__us__container">
+        <div class="about__us__left">
+          <h3 class="about__us__title">We are here to support vulnerable communities</h3>
+          <p class="about__us__text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua molestie a iaculis at erat pellentesque adipiscing commodo elit at.</p>
+
+          <img class="about__us__img" src="img/girl.jpg" alt="Girl"  srcset="img/girl.jpg 1x, img/girl@2x.jpg 2x" width="596px" height="530px">
+          <img  class="about__us__img" src="img/teacher.jpg" alt="Teacher and people" srcset="img/teacher.jpg 1x, img/teacher@2x.jpg 2x" width="596px" height="390px">
+        </div>
+
+        <div class="about__us__right">
+          <div class="about__us__button__wrapper">
+            <button class="button button__orange button__hero">Donate now</button>
+            <button class="button button--margin--left button__hero">About us</button>
+          </div>
+
+          <img class="about__us__right__img" src="img/boy.jpg" alt="Boy" srcset="img/boy.jpg 1x, img/boy@2x.jpg 2x" width="596px" height="750px">
+
+          <p class="about__as__text">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus et malesuada fames urna nec tincidunt praesent semper feugiat metus aliquam eleifend mi in nulla posuere sollicitudin pretium aenean pharetra magna ac placerat.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
 
   <script src="js/main.js"></script>
 </body>
